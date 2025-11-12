@@ -8,10 +8,13 @@
 
 a{
     text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 header{color: white;
-background-color: brown;}
+position: fixed;
+justify-content: space-between;}
 
 /*Les classes fonctionnelles flex*/
 
@@ -45,6 +48,10 @@ justify-content:center;}
     gap: 20px;
 }
 
+.gap-200{
+    gap:200px
+}
+
 /*Les classes de largeur*/
 
 .w-100{
@@ -60,6 +67,10 @@ justify-content:center;}
 .w-10{
     width: 10%;
 }
+.vertical{
+    vertical-align: auto;
+}
+
 
 ul li {list-style: none;}
 
@@ -79,18 +90,40 @@ margin-right: auto;
 padding-top: 60px;
 }
 
+.padding-top-20{
+    padding-top: 20px;
+}
+
 .margin-top-100{
     margin-top: 100px;
+}
+
+.margin-top-20{
+    margin-top: 20px;
 }
 
 .padding{
     padding: 40px;
 }
 
-h2{font-family: "Josefin Sans", sans-serif;}
+h2{font-family: "Josefin Sans", sans-serif;
+color: rgb(173, 147, 61);}
 
 h1{ font-family: "Andada Pro", serif;}
 
+h3{
+    font-size: 40px;
+}
+
 /*SECTION HERO*/
 
-.bg {background-image: url(images/banniere.jpg);}
+.bg {background-image: url(images/banniere3.png);
+height:100vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;}
+
+.txt-jaune{color:rgb(173, 147, 61);}
+
+.trait{background-color: rgb(173, 147, 61);
+}
